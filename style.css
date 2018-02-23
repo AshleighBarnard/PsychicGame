@@ -1,0 +1,22 @@
+body {
+  background-color: aliceblue;
+  color: darkgray;
+
+}
+
+#game {
+  align-content: center;
+  text-align: center;
+  padding-bottom: 45px;
+  margin-bottom: 40px;
+}
+.jumbotron {
+  color: black;
+  background-color: aliceblue;
+  align-content: center;
+  text-align: center; 
+
+}
+.display-3 {
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}

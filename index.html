@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <script defer src="https://use.fontawesome.com/releases/v5.0.6/js/all.js"></script>
+
+
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ" crossorigin="anonymous">
+<script src="https://code.jquery.com/jquery-3.1.1.slim.min.js" integrity="sha384-A7FZj7v+d/sdmMqp/nOQwliLvUsJfDHW+k9Omg/a/EheAdgtzNs3hpfag6Ed950n" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js" integrity="sha384-DztdAPBWPRXSA/3eYEEUWrWCy7G5KFbe8fFjk5JAIxUYHKkDx6Qin1DkWx51bBrb" crossorigin="anonymous"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/js/bootstrap.min.js" integrity="sha384-vBWWzlZJ8ea9aCX4pEW3rVHjgjt7zpkNpZk+02D9phzyeVkE+jo0ieGizqPLForn" crossorigin="anonymous"></script>
+
+<link rel="stylesheet" type="text/css" href="style.css">
+  <title>Psychic Game!</title>
+
+  <div class="jumbotron">
+    <h1 class="display-3">Psychic Game</h1>
+    <p class="lead">This is a guessing game. You will press keys and try to guess what the computer is thinking. You will have (10) attemps to beat the computer.  </p>
+    <hr class="my-4">
+    <p>Goodluck! </p>
+    <p class="lead">
+
+        <a href="#game" class="btn btn-default" <i class="fas fa-gem">
+            <i class="fa question-circle fa-lg"></i>
+
+
+    </p>
+  </div>
+
+
+
+  <div class="container">
+
+      <div class="col">
+      <img src="fortune.jpg">
+      </div>
+    </div>
+
+</head>
+<body>
+
+    <div id="game">
+        <ul class="list-group">
+          <li class="list-group-item"><p id="wins">Wins: </p></li>
+              <li class="list-group-item"><p id="losses">Losses: </p></li>
+              <li class="list-group-item"><p id="guessLeft">Guesses Left: 9</p></li>
+              <li class="list-group-item"><p id="let">Your Guesses so far: </p></li>
+          </ul>
+
+          <script type="text/javascript" src="game.js"></script>
+</body>
+</html>
